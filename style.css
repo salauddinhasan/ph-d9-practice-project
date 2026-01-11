@@ -11,6 +11,9 @@ body {
 }
 
 /* header section */
+.header-section, .banner-section {
+    background-color:#F0FFF0;
+}
 .navbar {
     max-width: 1300px;
     margin: 0 auto;
@@ -55,5 +58,60 @@ body {
     background-color:#21B573;
     color: #FFFFFF;
     border-radius: 50px;
+    display: inline-block;
+}
+/* banner-section */
+.banner-section {
+    padding: 60px 20px;
+    
+}
+.container {
+    max-width: 1300px;
+    margin:  0 auto;
+    padding: 15px;
+}
+
+.banner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    max-width: 1300px;
+    margin:  0 auto;
+ 
+}
+.banner-content {
+    width: 500px;
+ 
+}
+
+.banner-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.banner-content h1 {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.color-blue {
+    color: #21B573;
+}
+.banner-sub-title {
+    font-weight: 400;
+    color:#FD511A;
+}
+
+ .banner-image {
+     
+    text-align: center;
+ 
+ }
+.banner-image img {
+    max-width: 700px;;
+    height: auto;
     display: inline-block;
 }
