@@ -115,3 +115,32 @@ body {
     height: auto;
     display: inline-block;
 }
+
+/* Student Section */
+.student-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color:#FFFFFF ;
+    gap: 30px;
+    margin: 60px 0;
+}
+.item {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 8px;
+}
+.item img {
+    max-width: 100px;
+    background-color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.item h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.item p {
+    font-size: 16px;
+    color: #555;
+}
