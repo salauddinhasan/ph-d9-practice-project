@@ -59,7 +59,16 @@ body {
     color: #FFFFFF;
     border-radius: 50px;
     display: inline-block;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(33, 181, 115, 0.3);
+}
+
+
 /* banner-section */
 .banner-section {
     padding: 60px 20px;
@@ -210,3 +219,70 @@ body {
 
 
  
+/* review-wrapper */
+.review-section {
+    padding: 60px 20px;
+}
+.review-title {
+    text-align: center;
+    font-size: 32px;
+    color:#000000;
+    margin-bottom: 20px;
+}
+.review-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.review-wrapper img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.review-content p {
+    max-width: 650px;
+    line-height: 28px;
+    color: #585859;
+}
+
+/* footer-wrapper */
+.footer-section{
+    padding: 60px 20px;
+    background-color: #282531;
+    color: #FFFFFF;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-about {
+    max-width: 450px;
+}
+.footer-nav {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-nav ul {
+    list-style: none;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer-title {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+#copyright {
+    text-align: center;
+    margin-top: 50px;
+}
